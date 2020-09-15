@@ -63,17 +63,17 @@ i. Classe é uma estrutura que agrupa objetos com características similares, co
 
 j. Uma variável de classe possui um valor comum a todos os objetos que pertencerem à classe, e uma variável de instância possui um valor específico para cada objeto. O nome é sobrecarga (overload). Para distinguir um método do outro, eles precisam possuir argumentos diferentes, por exemplo:
 
-public class calculadora{
-public int calcula( int a, int b){
-    return a+b;
-  }
-  public double calcula( double a, double b){
-     return a+b;
-  }
-   public String calcula( String a, String b){
-     return a+b;
-}
-}
+	public class calculadora{
+		public int calcula( int a, int b){
+		    return a+b;
+		  }
+		  public double calcula( double a, double b){
+		     return a+b;
+		  }
+		   public String calcula( String a, String b){
+		     return a+b;
+		}
+	}
 
 k. this = referência à própria classe
 this() = chama o construtor da própria classe.
