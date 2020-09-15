@@ -56,18 +56,7 @@ d. Encapsulamento é a maneira de ocultar determinados atributos e métodos de u
 
 e. O estado de um objeto são os valores dos atributos dele. O comportamento é relacionado aos seus métodos.
 
-f. class Pessoa: 
-def __init__(self, nome, idade):   	               #método - comportamento
-self.nome = nome			    #atributo - estado
-self.idade = idade			    #atributo - estado
-def setNome(self, nome):
-self.nome = nome
-def setIdade(self, idade): 
-self.idade = idade
-def getNome(self): 
-return self.nome
-def getIdade(self):
-return self.idade
+f.  [Código](https://github.com/caiovictors/Metodos-de-Projetos-de-Software/blob/master/Lista%201/Letra_f.py)
 
 g. É a localização do objeto na memória.
 
