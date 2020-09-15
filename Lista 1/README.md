@@ -85,3 +85,4 @@ n. try-catch: no try fica a parte do código onde pode ser lançada uma exceçã
 throw e throws: throws serve para tratar uma exceção em um outro bloco chamado por ele, enquanto o throw lança uma exceção padrão invés de uma específica.
 finally: é usado quando é necessário que uma ação seja tomada mesmo após a captura de uma exceção.
 
+### Questão 2
