@@ -70,9 +70,6 @@ j. Uma variável de classe possui um valor comum a todos os objetos que pertence
 		 public double calcula( double a, double b){
 		    return a+b;
 		 }
-		  public String calcula( String a, String b){
-		    return a+b;
-		 }
 	}
 
 k. this = referência à própria classe </br>
