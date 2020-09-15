@@ -3,7 +3,7 @@
 
 ### Questão 1
 
-*a. Uma vantagem da POO sobre a Programação Estruturada é que ela possui um melhor reaproveitamento de código, já que podem ser criadas instâncias, relacionar e herdar atributos dos objetos para outras aplicações.
+a. Uma vantagem da POO sobre a Programação Estruturada é que ela possui um melhor reaproveitamento de código, já que podem ser criadas instâncias, relacionar e herdar atributos dos objetos para outras aplicações.
 
 b. É uma instância de uma classe, um conjunto de dados que possui atributos e métodos.
 
