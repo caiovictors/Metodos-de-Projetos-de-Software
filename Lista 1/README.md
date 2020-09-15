@@ -59,7 +59,7 @@ g. É a localização do objeto na memória.
 
 h. A referência irá receber a nova referência do novo objeto
 
-i. Classe é uma estrutura que agrupa objetos com características similares, como métodos e atributos. Ela serve para definir o comportamento e estados dos objetos. exemplo de classe em python: [Código](https://github.com/caiovictors/Metodos-de-Projetos-de-Software/blob/master/Lista%201/codigo_class.py)
+i. Classe é uma estrutura que agrupa objetos com características similares, como métodos e atributos. Ela serve para definir o comportamento e estados dos objetos. Exemplo de classe em python: [código](https://github.com/caiovictors/Metodos-de-Projetos-de-Software/blob/master/Lista%201/codigo_class.py)
 
 j. Uma variável de classe possui um valor comum a todos os objetos que pertencerem à classe, e uma variável de instância possui um valor específico para cada objeto. O nome é sobrecarga (overload). Para distinguir um método do outro, eles precisam possuir argumentos diferentes, por exemplo:
 
