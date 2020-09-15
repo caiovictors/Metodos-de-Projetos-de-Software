@@ -8,49 +8,45 @@ b. É uma instância de uma classe, um conjunto de dados que possui atributos e 
 
 c. Propriedade estática é quando é determinado o tipo do objeto em tempo de compilação, sem ocorrer sobrescrita de método. Propriedade dinâmica é quando o método de uma classe é sobrescrito pelo método de outra classe com mesmo nome, isso acontece quando tem herança, e o seu tipo é determinado em tempo de execução.
 
-	Exemplo estático:
+Exemplo estático:
 
-Class print_1{
-	public static void func (){
-		print(“1”)
-}
-}
+	Class print_1{
+		public static void func (){
+			print(“1”)
+	}
+	}
 
-Classe print_2 extends print_1{
-	public static void func (){
-		print(“2”)
-}
-public static void main(){
-		print_1 obj = new print_2();
-obj.func();
-}
-}
+	Classe print_2 extends print_1{
+		public static void func (){
+			print(“2”)
+	}
+	public static void main(){
+			print_1 obj = new print_2();
+	obj.func();
+	}
+	}
 
-saída: “1”
-
-
-
-
+	saída: “1”
 
 Exemplo dinâmico:
 
-Class print_1{
-	public void func (){
-		print(“1”)
-}
-}
+	Class print_1{
+		public void func (){
+			print(“1”)
+	}
+	}
 
-Classe print_2 extends print_1{
-	public void func (){
-		print(“2”)
-}
-public void main(){
-		print_1 obj = new print_2();
-obj.func();
-}
-}
+	Classe print_2 extends print_1{
+		public void func (){
+			print(“2”)
+	}
+	public void main(){
+			print_1 obj = new print_2();
+	obj.func();
+	}
+	}
 
-saída: “2”
+	saída: “2”
 
 d. Encapsulamento é a maneira de ocultar determinados atributos e métodos de uma classe das demais classes. É importante encapsular para que o sistema esteja pronto para modificações.
 
