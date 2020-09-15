@@ -75,10 +75,10 @@ j. Uma variável de classe possui um valor comum a todos os objetos que pertence
 		}
 	}
 
-k. this = referência à própria classe
-this() = chama o construtor da própria classe.
-super = referência à classe mãe.
-super() = chama o construtor da classe mãe.
+k. this = referência à própria classe </br>
+this() = chama o construtor da própria classe. </br>
+super = referência à classe mãe. </br>
+super() = chama o construtor da classe mãe. </br>
 
 l. oo
 
