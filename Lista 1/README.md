@@ -141,7 +141,7 @@ Ainda no projeto de computação gráfica, a classe iluminação define a luz di
 	class lighting{
 		private:
 		    glm::vec3 lightPosition; // Vetor do tipo glm que guarda as coordenadas da luz
-	public:
+		public:
 	};
 
 	#endif
