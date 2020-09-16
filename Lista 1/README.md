@@ -86,8 +86,32 @@ throw e throws: throws serve para tratar uma exceção em um outro bloco chamado
 finally: é usado quando é necessário que uma ação seja tomada mesmo após a captura de uma exceção.
 
 ### Questão 2
+A classe abaixo foi desenvolvida na disciplina Linguagem de programação I em C++, cujo nome é Data, ela define dia, mês e ano e o construtor inicializa um objeto (no cpp para 1/1/1970): 
 
-A classe abaixo “model” pertence a um projeto de computação gráfica, cada objeto posto em cena é um modelo e ele tem atributos. Atenção: o código não irá compilar sem as bibliotecas de computação gráfica instaladas. Código em C++.
+	#ifndef DATA_H_
+	#define DATA_H_
+
+	class Data {
+		private:      
+			int dia;  //atributo
+			int mes;  //atributo
+			int ano;  //atributo
+		public:
+			Data();    //construtor padrao
+			Data(int, int, int);  //construtor personalizado
+			int getDia();  //metodo para pegar o dia
+			int getMes();  //metodo para pegar o mes
+			int getAno();  //metodo para pegar o ano
+			void setDia(int);  //metodo para setar o dia
+			void setMes(int);  //metodo para setar o mes
+			void setAno(int);  //metodo para setar o ano
+			bool verificaData();  //metodo para verificar a data
+			void avancarDia();  //metodo para avancar um dia
+	};
+
+	#endif /* DATA_H_ */
+
+A classe abaixo “model” pertence a um projeto de computação gráfica, cada objeto posto em cena é um modelo e ele tem atributos. Atenção: o código não irá compilar sem as bibliotecas de computação gráfica instaladas. Código em C++:
 	
 	#ifndef MODEL_HPP
 	#define MODEL_HPP
@@ -121,3 +145,4 @@ Ainda no projeto de computação gráfica, a classe iluminação define a luz di
 	};
 
 	#endif
+
