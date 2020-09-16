@@ -111,7 +111,7 @@ A classe abaixo foi desenvolvida na disciplina Linguagem de programação I em C
 
 	#endif /* DATA_H_ */
 
-A classe abaixo “model” pertence a um projeto de computação gráfica, cada objeto posto em cena é um modelo e ele tem atributos. Atenção: o código não irá compilar sem as bibliotecas de computação gráfica instaladas. Código em C++:
+A classe abaixo “model” pertence a um projeto em grupo de computação gráfica, cada objeto posto em cena é um modelo, com seus atributos. O código não irá compilar sem as bibliotecas de computação gráfica instaladas. Código em C++:
 	
 	#ifndef MODEL_HPP
 	#define MODEL_HPP
