@@ -86,3 +86,38 @@ throw e throws: throws serve para tratar uma exceção em um outro bloco chamado
 finally: é usado quando é necessário que uma ação seja tomada mesmo após a captura de uma exceção.
 
 ### Questão 2
+
+A classe abaixo “model” pertence a um projeto de computação gráfica, cada objeto posto em cena é um modelo e ele tem atributos. Atenção: o código não irá compilar sem as bibliotecas de computação gráfica instaladas. Código em C++.
+	
+	#ifndef MODEL_HPP
+	#define MODEL_HPP
+	#include "include.hpp"
+
+	class Model{
+		private:
+		    unsigned int vaoId; //ID do modelo
+		    unsigned int vertexCount; //Número de vértices
+		    unsigned int textureId; //ID da textura que o modelo vai receber
+
+		public:
+		    glm::vec3 rotation; //Vetor do tipo glm que compõe a rotação do corpo
+		    glm::vec3 scale; //Vetor do tipo glm que compõe a escala/dimensão do corpo
+		    glm::vec3 position; //Vetor do tipo glm que compõe a posição do modelo na cena
+
+		    Model(); //Construtor que irá setar todos esses atributos para 0, incluindo os vetores, e os valores são preenchidos fora da classe
+	};
+	#endif
+
+Ainda no projeto de computação gráfica, a classe iluminação define a luz direcional (o sol por exemplo). Código em C++.
+
+	#ifndef LIGHTING_HPP
+	#define LIGHTING_HPP
+	#include "include.hpp"
+	
+	class lighting{
+		private:
+		    glm::vec3 lightPosition; // Vetor do tipo glm que guarda as coordenadas da luz
+	public:
+	};
+
+	#endif
