@@ -77,7 +77,7 @@ this() = chama o construtor da própria classe. </br>
 super = referência à classe mãe. </br>
 super() = chama o construtor da classe mãe. </br>
 
-l. Erros de execução na linguagem C++: Runtime error, segmentation fault, stack overflow. É possível tratar com cexceções o runtime error.
+l. Erros de execução na linguagem C++: Runtime error, segmentation fault, stack overflow. É possível tratar com exceções o runtime error.
 
 m. Um Error não pode ser tratado pela aplicação, enquanto os exceptions podem ser capturadas e tratadas via try e catch.
 
